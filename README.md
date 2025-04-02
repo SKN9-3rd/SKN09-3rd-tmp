@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/1ec8ccfc-21a4-436f-ba28-7f4fbe03ddf0)
 
 
-###  페이지 구성 예시
+### 2-2 페이지 구성 예시
 
 ![image](https://github.com/user-attachments/assets/911e84d8-cf41-43ee-8eb5-4454f5a505ef)
 
