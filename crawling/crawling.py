@@ -4,18 +4,18 @@ from selenium.webdriver.common.by import By
 import time
 
 # 옵션 생성
-options = webdriver.ChromeOptions()
-# 창 숨기는 옵션 추가
-options.add_argument("headless")
+# options = webdriver.ChromeOptions()
+# # 창 숨기는 옵션 추가
+# options.add_argument("headless")
 
-driver = webdriver.Chrome(options=options)
-# driver = webdriver.Chrome()
+# driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome()
 
 driver.get('https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%9A%B4%EC%84%B8')
 time.sleep(1)
 
 # 성별 선택 값
-# sex = 'M'
+sex = 'M'
 sex_btn_1 = driver.find_element(By.XPATH,'//*[@id="fortune_birthCondition"]/div[1]/div[1]/div[1]/div/a')
 sex_btn_1.click()
 
@@ -35,7 +35,7 @@ time_btn_1 = driver.find_element(By.XPATH,'//*[@id="fortune_birthCondition"]/div
 time_btn_1.click()
 
 # 시간 선택 값(1~13)
-# time_sel = 1
+time_sel = 1
 time_btn_1 = driver.find_element(By.XPATH,f'//*[@id="fortune_birthCondition"]/div[1]/div[1]/div[3]/div/div/ul/li[{time_sel}]/a')
 time_btn_1.click()
 
@@ -44,17 +44,17 @@ date_btn_1.click()
 
 
 # 연도 선택 1940~2025
-# year_sel = 2000 - 1939
+year_sel = 2000 - 1939
 year_btn_1 = driver.find_element(By.XPATH, f'//*[@id="fortune_birthCondition"]/div[1]/div[2]/div/div[1]/div/div[1]/div/div/div/ul/li[{year_sel}]/a')
 year_btn_1.click()
 
 # 1~12
-# month_sel = 2
+month_sel = 2
 month_btn_1 = driver.find_element(By.XPATH, f'//*[@id="fortune_birthCondition"]/div[1]/div[2]/div/div[1]/div/div[2]/div/div/div/ul/li[{month_sel}]/a')
 month_btn_1.click()
 
 # 1~31
-# day_sel = 3
+day_sel = 3
 day_btn_1 = driver.find_element(By.XPATH, f'//*[@id="fortune_birthCondition"]/div[1]/div[2]/div/div[1]/div/div[3]/div/div/div/ul/li[{day_sel}]/a')
 day_btn_1.click()
 
@@ -62,8 +62,17 @@ start_btn = driver.find_element(By.XPATH, '//*[@id="fortune_birthCondition"]/div
 start_btn.click()
 time.sleep(1)
 
-total_short = driver.find_element(By.XPATH, '/*[@id="fortune_birthResult"]//div[1]/dl[1]/dd/strong').text
+total_short = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]//div[1]/dl[1]/dd/strong').text
 total_long = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/dl[1]/dd/p').text
+
+love_btn = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/ul/li[2]/a')
+love_btn.click()
 love_long = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/dl[2]/dd/p').text
+
+money_btn = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/ul/li[3]/a')
+money_btn.click()
 money_long = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/dl[3]/dd/p').text
+
+health_btn = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/ul/li[6]/a')
+health_btn.click()
 health_long = driver.find_element(By.XPATH, '//*[@id="fortune_birthResult"]/div[1]/dl[6]/dd/p').text
