@@ -14,20 +14,15 @@
 
 ## 2. 화면 정의서 - 초기화면
 
-![image](https://github.com/user-attachments/assets/1ec8ccfc-21a4-436f-ba28-7f4fbe03ddf0)
-
+![image](https://github.com/user-attachments/assets/dc1bd1f0-b68d-403e-b4a5-bfca6899a8e5)
 
 ### 2-2 페이지 구성 예시
 
-![image](https://github.com/user-attachments/assets/c7bd0850-4e2d-4b1f-baab-0c8914bbd4c4)
-
+![image](https://github.com/user-attachments/assets/b8fa4011-4e80-491b-a33f-deb6f29da5ad)
 
 
 ### 3. 테스트 계획서
-![image](https://github.com/user-attachments/assets/82ffb9ff-6862-452b-bae9-905c37348523)
-
-
-
+![image](https://github.com/user-attachments/assets/be9170bb-873d-41eb-a9fc-0771e10aeba6)
 
 
 ### 4. 결과
