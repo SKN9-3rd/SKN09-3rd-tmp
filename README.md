@@ -12,9 +12,13 @@
 | req-001     | 운세&nbsp;사이트 | 사용자 입력      | 사용자의 생년/월/일/출생시간/성별을<br>입력한다.                         | 상     | 중     | 인터페이스 |
 | req-002     | 운세&nbsp;사이트 | 인터페이스 출력  | 사이트에서 입력받은 데이터를 바탕으로<br>운세 내용을 파트별로 크롤링한다. | 상     | 중     | 인터페이스 |
 
+
+
 ## 2. 화면 정의서 - 초기화면
 
 ![image](https://github.com/user-attachments/assets/dc1bd1f0-b68d-403e-b4a5-bfca6899a8e5)
+
+
 
 ### 2-2 페이지 구성 예시
 
@@ -22,7 +26,8 @@
 
 
 ### 3. 테스트 계획서
-![image](https://github.com/user-attachments/assets/be9170bb-873d-41eb-a9fc-0771e10aeba6)
+![image](https://github.com/user-attachments/assets/ac47b951-6aa6-4aac-93fd-c9f075d3dac2)
+
 
 
 ### 4. 결과
