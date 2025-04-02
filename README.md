@@ -21,10 +21,6 @@
 
 ###  페이지 구성 예시
 
-> 아래 이미지는 실제 화면 레이아웃입니다:
-
-![초기화면](./images/start_screen.png)
-
 ![image](https://github.com/user-attachments/assets/911e84d8-cf41-43ee-8eb5-4454f5a505ef)
 
 
